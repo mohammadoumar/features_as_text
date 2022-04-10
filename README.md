@@ -21,6 +21,10 @@ implement a features as text, BERT-based model for text classification.
 
 Our model incorporates contextual and structural features of the argument component to build enriched BERT based representation for argument classification. More details about BERT and other transformer models can be found here: https://github.com/huggingface/transformers
 
+<p align="center">
+<img src="0001.jpg" width="400" height="300" />
+</p>
+
 # Data
 
 We experiment on our model with 3 datasets: 
@@ -38,6 +42,7 @@ We train our model for two tasks:
 1) BERT fine-tune on the three datasets
 2) comparing numerical concatenation versus our structural features as text
 
+More details about BERT fine-tuning can be found here: https://huggingface.co/docs/transformers/training
 
 # Notebooks
 
