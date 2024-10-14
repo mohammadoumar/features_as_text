@@ -1,4 +1,4 @@
-# Argument Classification with BERT plus Contextual and Structural Features as Text
+# 📣 Argument Classification with BERT plus Contextual and Structural Features as Text 📣
 
 **Abstract:** In Argument Mining (AM), the integral sub-task of argument
 component classification refers to the classification of argument
@@ -17,7 +17,7 @@ is capable of exploiting non-textual information given in a textual form.
 To the best of our knowledge, our work is the first to investigate and
 implement a features as text, BERT-based model for text classification.
 
-# Model
+# ⛓️ Model
 
 Our model incorporates contextual and structural features of the argument component to build enriched BERT based representation for argument classification. More details about BERT and other transformer models can be found here: https://github.com/huggingface/transformers
 
@@ -25,7 +25,7 @@ Our model incorporates contextual and structural features of the argument compon
 <img src="model.jpg" width="400" height="300" />
 </p>
 
-# Data
+# 🧮 Data
 
 We experiment on our model with 3 datasets: 
 
@@ -35,7 +35,7 @@ We experiment on our model with 3 datasets:
 
 The contextual and structural features of all three datasets have been pre-computed separately. All three datasets in the PyTorch ready ``.pt`` format are given in the ``/datasets`` folder.
 
-# Tasks
+# 🎛️ Tasks
 
 We train our model for two tasks: 
 
@@ -44,11 +44,11 @@ We train our model for two tasks:
 
 More details about BERT fine-tuning can be found here: https://huggingface.co/docs/transformers/training
 
-# Notebooks
+# 📚 Notebooks
 
 The notebooks used for the experiments are given in the ``/notebooks`` folder. More detailed explanation about the usage is provided in the ``README`` file in the folder.
 
-# Requirements
+# 📦 Requirements
 
 We use the following versions of the packages:
 
@@ -59,6 +59,6 @@ datasets==1.15.1
 tensorboard==2.6.0
 ```
 
-# Platform
+# 💻 Platform
 
 All experiments have been performed on Paperspace's Gradient cloud AI/ML platform: https://gradient.run/
